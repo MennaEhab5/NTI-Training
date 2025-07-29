@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Order Form</title>
+</head>
+<body align="center">
+
+    <p style="font-size: 20px; font-weight: bold;">PLEASE FILL THE BOXES BELOW</p>
+    <br><br>
+
+    <form>
+        <label>Full Name *</label>
+        <input type="text" placeholder="Full Name" required>
+        <br><br><br>
+
+        <label>E-mail *</label>
+        <input type="email" placeholder="ex: myname@example.com" required>
+        <br><br><br>
+
+        <label>Recipient Phone Number *</label>
+        <input type="text" placeholder="Phone Number" required>
+        <br><br><br>
+
+        <label>Preference *</label><br>
+        <input type="checkbox"> Exchange my current cylinder with a prefilled cylinder <br>
+        <input type="checkbox"> Pick my cylinder, refill and return it to my location 
+        <br><br><br>
+
+        <label>My Cylinder Size is</label>
+        <select required>
+            <option value="">-- Select --</option>
+            <option>15</option>
+            <option>18</option>
+            <option>20</option>
+            <option>22</option>
+        </select>
+        <br><br><br>
+
+        <label>Quantity Required *</label>
+        <input type="number" required>
+        <br><br><br>
+
+        <label>AMOUNT DUE</label>
+        <input type="number">
+        <br><br><br>
+
+        <label>Delivery Address<br>(Please include nearest landmarks) *</label><br>
+        <textarea rows="5" cols="40" required></textarea>
+        <br><br>
+
+        <button type="submit" style="background-color: red; color: white; font-weight: bold; padding: 10px 20px; border: none;">Place Order</button>
+    </form>
+
+</body>
+</html>
