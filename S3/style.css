@@ -1,4 +1,4 @@
-div{
+/* div{
     color: red;
 }
 
@@ -8,4 +8,106 @@ div{
 
 .x{
     color: blue;
+} */
+
+/* div{
+    color: rgba(67, 14, 28, 0.5);
+} */
+ 
+/* .services h2{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.services p{
+    text-align: justify;
+    text-align-last: center;
+    text-indent: 0px;
+    letter-spacing: 0px;
+    line-height: 1.5;
+    word-spacing: 0px;
+    white-space: normal;
+}
+
+#ar{
+    direction: rtl;
+} */
+
+/* p{
+    font-size: 1rem;
+}
+.text-white{
+    color: white;
+}
+.text-blue{
+    color: rgb(53, 53, 176);
+}
+.bg-blue{
+    background-color: rgb(53, 53, 176);
+}
+.large-txt{
+    font-size:  2rem;
+} */
+
+/* *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+div{
+    background-color: black;
+    color: white;
+    margin-top: 5%;
+    box-sizing: border-box;
+}
+span{
+    width: 50%;
+    background-color: rgb(111, 40, 40);
+    color: white;
+    margin-top: 5%;
+    box-sizing: border-box;
+}
+#bg{
+    padding: 20px;
+    text-align: justify;
+} */
+
+/* *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+div{
+    width: 49.8%;
+    color: white;
+    box-sizing: border-box;
+    display: inline-block;
+} */
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+ div{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+ }
+ h1, h2{
+    color: #1b75bc;
+    font-family: poppins;
+ }
+ p{
+    font-family: poppins;
+    font-size: 14px;
+ }
+.w-45{
+    width: 45.5%;
+}
+.container{
+    margin: 5% auto;
+}
+.parent{
+    width: 80%;
 }
