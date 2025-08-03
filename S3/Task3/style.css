@@ -17,6 +17,7 @@
     width: 75%;
     margin: 4% auto;
     font-family: poppins;
+    background-color: #10c0e3;
 }
 h2{
     font-size: 38px;
@@ -27,7 +28,6 @@ h2{
 #left-side{
     height: 600px;
     color: white;
-    background-color: #10c0e3;
     p{
         font-size: 18px;
     }

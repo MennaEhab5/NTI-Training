@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
+}
+.align-center{
+    text-align: center;
+}
+.w-38{
+    width: 38%;
+}
+.w-43{
+    width: 43%;
+}
+.w-50{
+    width: 49.5%;
+}
+.my-4{
+    margin-bottom: 4%;
+}
+.my-5{
+    margin-left: 5%;
+}
+.my-10{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.sec-style{
+    height: 75vh;
+}
+.sec-bg{
+    background-color: #d89ea8;
+}
+.nav-contain{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 1.5%;
+}
+.container{
+    width: 90%;
+    margin: 2% auto;
+    padding-top: 1.5%;
+}
+.con-color{
+    color: rgb(92, 86, 86);
+}
+.h1-base{
+    font-size: 4rem;
+    font-weight: 500;
+    margin-bottom: 3%;
+}
+.h2-base{
+    font-size: 3.5rem;
+    font-weight: 480;
+    margin-bottom: 3%;
+}
+.p-base{
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: 5%;
+}
+.p-color{
+    color: rgb(57, 55, 55);
+}
+nav{
+    height: 15vh;
+}
+#logo img{
+    width: 10%;
+    border-radius: 50%;
+}
+#logo h2{
+    font-size: 1.8rem;
+    font-weight: 550;
+    margin-left: 1.5%;
+    margin-top: 1.5%;
+}
+i{
+    font-size: 2.5rem;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+#nav-icon{
+    text-align: right;
+}
+.bg-image{
+    background-image: url(images/home.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 85vh;
+}
+.hero-content{
+    width: 75%;
+    padding-top: 5%;
+    padding-left: 6%;
+    color: rgb(92, 86, 86);
+}
+.hero-content h2{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2%;
+}
+
+.hero-content p{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 5%;
+}
+.btn-main{
+    padding: 1.5% 3%;
+    background-color: rgb(92, 86, 86);
+    color: #d89ea8;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+}
+.mailing{
+    height: 65vh;
+    margin-top: 5%;
+    padding-left: 1%;
+}
+#right-mail{
+    width: 47%;
+}
+/* .mailing h2{
+    font-size: 3.5rem;
+    font-weight: 480;
+    margin-bottom: 2%;
+} */
+/* .mailing p{
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: 5%;
+} */
+#right-mail label{
+    font-size: 0.95rem;
+    font-weight: 400;
+}
+#right-mail input{
+    width: 80%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    border: none;
+    border-bottom: 2px solid rgb(57, 55, 55);
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: 8%;
+}
+.btn-mail{
+    padding: 3% 6%;
+    background-color: rgb(57, 55, 55);
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 450;
+    border: none;
+    border-radius: 30px;
+}
+#sec3-left{
+    margin-top: 4%;
+}
+/* #sec3-right{
+    width: 46.7%;
+    margin-left: 5%;
+}
+#sec3-right img{
+    width: 100%;
+} */
+ #sec3 img{
+    width: 616px;
+    height: 560px;
+    margin-left: 11%;
+ }
+ #sec4{
+    margin-top: 5%;
+    margin-bottom: 5%;
+ }
+ #sec4-right{
+    width: 43%;
+    margin-left: 5%;
+ }
+ #sec4-right a{
+    background-color: #d89ea8;
+    color:rgb(92, 86, 86);
+ }
+#sec5{
+    padding-top: 8%;
+    padding-left: 5%;
+}
+#sec5 p{
+    margin-bottom: 15%;
+}
+.sec6-content{
+    margin-top: 5%;
+}
+.sec6-content .left img{
+    width: 100%;
+}
+.sec6-content .right{
+    margin-top: 5%;
+    margin-left: 6%;
+}
+.sec6-content .right h2{
+    font-size: 3.3rem;
+    font-weight: 500;
+    margin-bottom: 2.5%;
+}
+.sec6-content .right .p1{
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 1%;
+}
+.sec6-content .right .p2{
+    font-size: 1.4rem;
+    font-weight: 380;
+}
+#sec6-right{
+    margin-left: 5%;
+}
+#sec7{
+    width: 58%;
+    margin: 6% auto;
+}
+#sec7 h1{
+    font-size: 3.4rem;
+    font-weight: 480;
+    margin-bottom: 6%;
+}
+#sec7 a{
+    background-color: #d89ea8;
+    color:rgb(92, 86, 86);
+ }
+ .footer{
+    margin-bottom: 3%;
+ }

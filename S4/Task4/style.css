@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.inline-block{
+    display: inline-block;
+}
+#left-side{
+    width: 70%;
+    height: 100vh;
+    background-color: rgb(59, 57, 57);
+}
+#cl-content{
+    width: 70%;
+    margin: 18% auto;
+    height: 55vh;
+    background-color: #874c30;
+}
+.w-30{
+    width: 29.5%;
+}
+.w-65{
+    width: 55.5%;
+}
+#my-img{
+    width: 240px;
+    height: 240px;
+    margin-top: 38%;
+    margin-left: 28%;
+    border-radius: 50%;
+}
+#cl-right{
+    height: 30px;
+    vertical-align: top;
+    margin-top: 23%;
+    margin-left: 15%;
+    color: white;
+}
+#cl-right p{
+    font-size: 15px;
+    font-weight: bold;
+}
+#cl-right h1{
+    font-size: 45px;
+}
+#right-side{
+    height: 50vh;
+    vertical-align: top;
+    color: white;
+}
+#ri-content{
+    width: 80%;
+    margin: 5% auto;
+}
+.pp{
+    padding: 2% 9.5%;
+    font-size: 12px;
+    border-radius: 20px;
+    background-color: rgb(69, 76, 77);
+}
+#ri-content input{
+    width: 100%;
+    padding: 2% 2%;
+    font-size: 14px;
+    border-radius: 20px;
+}
+#artists-list{
+    width: 100%;
+    height: 15vh;
+    margin-top: 8%;
+    border-radius: 10px;
+    background-color: rgb(69, 76, 77);
+}
+#li-left{
+    width: 80px;
+    height: 80px;
+    margin: 5% 5%;
+}
+#li-left img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+#li-right{
+    vertical-align: top;
+    margin-top: 10%;
+}
+#li-right p{
+    font-size: 10px;
+    color: rgb(175, 174, 174);
+}
+#li-right h1{
+    font-size: 15px;
+}
+#btn{
+    padding: 15px 45px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 25px;
+    color: white;
+    border: none;
+    background-color: rgb(20, 118, 20);
+    position: fixed;
+    bottom: 20px;
+    right: 150px;
+}

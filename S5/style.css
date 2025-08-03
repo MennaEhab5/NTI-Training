@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
+}
+.text-center{
+    text-align: center;
+}
+.dark-item{
+    color: #2B2B2B;
+}
+a{
+    text-decoration: none;
+}
+.my-1{
+    margin: 1.5% auto;
+}
+.ms-5{
+    margin-left: 5%;
+}
+.my-4{
+    margin: 4% auto;
+}
+.my-6{
+    margin: 6% auto;
+}
+.my-10{
+    margin-top: 10%;
+}
+.my-11{
+    margin: 11% auto;
+}
+.w-50{
+    width: 47.5%;
+}
+.container{
+    width: 90%;
+}
+#logo{
+    width: 74.5%;
+}
+#nav-menu{
+    width: 25%;
+}
+#hero h2{
+    font-size: 4.3rem;
+    font-weight: 500;
+    color: #2A2A2A
+}
+#hero p{
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+.btn-main{
+    background-color: #285E67;
+    color: white;
+    padding: 0.6rem 2.5rem;
+    margin: 2.5% auto;
+    border-radius: 30px;
+}
+#hero-images{
+    width: 100%;
+}
+#hero-images img{
+    width: 48.8%;
+}
+#hero-images img:nth-child(2){
+    margin-left: 2%;
+}
+#sec2{
+    height: 450px;
+    background-color: #F4F4F4;
+    border-radius: 10px;
+}
+#sec2-left{
+    width: 50%;
+    margin: 6% 3% 6% 10%;
+}
+#sec2-left h2{
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: #2A2A2A
+}
+#sec2-left-content{
+    width: 40%;
+    margin: 6% 2% 6% 0;
+}
+#sec2-left-content img{
+    width: 18%;
+}
+#organic-left img{
+    border-radius: 20px;
+}
+#organic-right{
+    margin-top: 2.5%;
+    margin-left: 3%;
+}
+#organic-right h2{
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-bottom: 2.5%;
+}
+#organic-right #content{
+    margin-top: 8%;
+}
+#organic-right #content img{
+    width: 8%;
+    margin-right: 2%;
+}
+#organic-right #content p{
+    width: 85%;
+}
+#eat{
+    height: 550px;
+    background-color: #F4F4F4;
+    border-radius: 10px;
+}
+#eat-left{
+    width: 43%;
+    text-align: center;
+}
+#eat-left img{
+    margin: 15% 10% auto 15%;
+}
+#eat-right{
+    width: 48%;
+    margin-top: 9%;
+
+}
+#eat-right h2{  
+    font-size: 3rem;
+    font-weight: 600;
+}
+#eat-right #content{
+    width: 40%;
+    color: #2A2A2A;
+}
+#eat-right #content img{
+    padding: 4.5%;
+    width: 18%;
+    background-color: #EBBFAE;
+    border-radius: 10px;
+}
+
