@@ -17,6 +17,10 @@ body{
     margin-top: 5%;
     margin-bottom: 5%;
 }
+.mt-8{
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
 .mt-2{
     margin-top: 2%;
 }
@@ -62,7 +66,7 @@ img{
     padding-top: 10%;
 }
 .fa-brands{
-    padding: 3%;
+    margin-top: 10%;
 }
 .words{
     width: 78%;
@@ -84,10 +88,6 @@ h3{
 .icon1{
     width: 40%;
 }
-/* .fa-calendar-days{
-    width: 10%;
-    height: 10%;
-} */
 .icon2{
     width: 40%;
 }
@@ -111,4 +111,24 @@ a{
 .card:hover .icons{
     background-color: blue;
     transition: all 0.5s;
+}
+.myDive{
+    background-color: red;
+    width: 20%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    animation-name: animate;
+    animation-duration: 3s;
+}
+@keyframes animate{
+    from{
+        background-color: red;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    to{
+        background-color: blue;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
 }
