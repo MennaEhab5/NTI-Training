@@ -10,6 +10,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../S5/fonts/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
@@ -141,14 +142,14 @@
   <span class="visually-hidden">Loading...</span>
 </div>
     </section> -->
-    <section class="container">
+    <!-- <section class="container">
       <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
           <button
             type="button"
             data-bs-target="#carouselExampleCaptions"
             data-bs-slide-to="0"
-            class="active"
+            class="active me-3"
             aria-current="true"
             aria-label="Slide 1"
             style="background-image: url(../S4/Task4/imgs/08af741c0b37a087bc5aa8815a551ed7.jpg);"
@@ -157,6 +158,7 @@
             type="button"
             data-bs-target="#carouselExampleCaptions"
             data-bs-slide-to="1"
+            class="active me-3"
             aria-label="Slide 2"
             style="background-image: url(../S4/Task4/imgs/08af741c0b37a087bc5aa8815a551ed7.jpg);"
           ></button>
@@ -164,6 +166,7 @@
             type="button"
             data-bs-target="#carouselExampleCaptions"
             data-bs-slide-to="2"
+            class="active me-3"
             aria-label="Slide 3"
             style="background-image: url(../S4/Task4/imgs/08af741c0b37a087bc5aa8815a551ed7.jpg);"
           ></button>
@@ -213,11 +216,56 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+    </section> -->
+    <!-- Button trigger modal -->
+    <section class="container my-5">
+      <div class="row">
+        <div
+          class="col-md-3 col-12 position-relative"
+          style="background-color: black; aspect-ratio: 1/1; border-radius: 5%;"
+        >
+          <button
+            type="button"
+            class="btn btn-transparent position-absolute top-50 start-50 translate-middle"
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop"
+          >
+          <i class="bi bi-youtube fs-1 text-danger"></i>
+          </button>
+        </div>
+      </div>
     </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="videoModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-dark">
+          <div class="modal-body p-0 position-relative">
+            <button
+              type="button"
+              class="btn-close btn-close-white position-absolute top-0 end-0 m-2"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <div class="ratio ratio-16x9">
+              <iframe
+                id="youtubeVideo"
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0"
+                title="YouTube video"
+                allow="autoplay; encrypted-media"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
       crossorigin="anonymous"
     ></script>
+    
   </body>
 </html>
