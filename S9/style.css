@@ -11,3 +11,11 @@
 h1{
     font-size: 8rem;
 }
+.fa-check{
+    width: 7%;
+    padding: 9px;
+    margin-left: 2%;
+}
+.w-30{
+    width: 31%;
+}
