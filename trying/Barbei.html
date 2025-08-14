@@ -20,13 +20,33 @@
       rel="stylesheet"
     />
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.min.css"
+    rel="stylesheet"
+  />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    /> -->
+    <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="css/contact.css" />
   </head>
   <body>
-    <nav class="navbar-custom py-3">
+    <nav class="navbar-custom py-3" id="nav">
       <div class="w-90 mx-auto">
         <div class="row w-100 align-items-center">
           <div class="col-md-2">
@@ -455,8 +475,401 @@
             </div>
           </div>
         </div>
+        <div class="tab my-5">
+          <div class="nav-tabs">
+            <ul class="nav" id="ex1" role="tablist">
+              <li class="nav-item" role="presentation">
+                <a
+                  data-mdb-tab-init
+                  class="nav-link active adecore me-4"
+                  id="ex1-tab-1"
+                  href="#ex1-tabs-1"
+                  role="tab"
+                  aria-controls="ex1-tabs-1"
+                  aria-selected="true"
+                  >Description</a
+                >
+              </li>
+              <li class="nav-item" role="presentation">
+                <a
+                  data-mdb-tab-init
+                  class="nav-link adecore me-4"
+                  id="ex1-tab-2"
+                  href="#ex1-tabs-2"
+                  role="tab"
+                  aria-controls="ex1-tabs-2"
+                  aria-selected="false"
+                  >Specifications</a
+                >
+              </li>
+              <li class="nav-item" role="presentation">
+                <a
+                  data-mdb-tab-init
+                  class="nav-link adecore"
+                  id="ex1-tab-3"
+                  href="#ex1-tabs-3"
+                  role="tab"
+                  aria-controls="ex1-tabs-4"
+                  aria-selected="false"
+                  >Reviews (0)</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="tab-content row" id="ex1-content">
+            <div
+              class="tab-pane fade over-hide show d-flex active row pt-5"
+              id="ex1-tabs-1"
+              role="tabpanel"
+              aria-labelledby="ex1-tab-1"
+            >
+              <div class="col-md-5 color-black fontsize-14 pr-4">
+                <p class="">
+                  Compellingly grow performance based mindshare through parallel
+                  potentialities. Rapidiously underwhelm top-line catalysts for
+                  change before best-of-breed materials. Competently brand
+                  timely catalysts for change through sustainable systems.
+                  Completely expedite ubiquitous bandwidth after integrated
+                  action items. Progressively transform leading-edge supply
+                  chains whereas flexible niche markets.
+                </p>
+              </div>
+              <div class="w-54 ms-4 shipping">
+                <table class="table table-striped table-borderless mb-0">
+                  <tbody>
+                    <tr class="">
+                      <td class="w-25" scope="row">
+                        <strong class="fontsize-14">Shipping</strong>
+                      </td>
+                      <td>
+                        <span class="color-black fontsize-14">
+                          We currently offer free shipping worldwide on all
+                          orders over $100.
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td scope="row">
+                        <strong class="fontsize-14">Sizing</strong>
+                      </td>
+                      <td>
+                        <span class="color-black fontsize-14">
+                          Fits true to size. Do you need size advice?
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td scope="row">
+                        <strong class="fontsize-14">Return & exchange</strong>
+                      </td>
+                      <td>
+                        <span class="color-black fontsize-14">
+                          If you are not satisfied with your purchase you can
+                          return it to us within 14 days for an exchange or
+                          refund.
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td scope="row">
+                        <strong class="fontsize-14">Assistance</strong>
+                      </td>
+                      <td>
+                        <span class="color-black fontsize-14">
+                          Contact us on (+44) 555 88 65, or email us at
+                          support@themesky.com
+                        </span>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <!-- <div
+              class="tab-pane fade over-hide"
+              id="ex1-tabs-2"
+              role="tabpanel"
+              aria-labelledby="ex1-tab-2"
+            >
+              <div class="w-100 ms-4 shipping mt-5">
+                <table class="table table-striped table-borderless mb-0">
+                  <tbody>
+                    <tr class="">
+                      <td class="" scope="row">
+                        <strong class="fontsize-14">Fabric Type</strong>
+                      </td>
+                      <td>
+                        <span class="color-black fontsize-14">
+                          50% Cotton, 48% Polyester, 2% Spandex
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td scope="row">
+                        <strong class="fontsize-14">Care Instructions</strong>
+                      </td>
+                      <td>
+                        <span class="color-black fontsize-14">
+                          Hand Wash Only
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td scope="row">
+                        <strong class="fontsize-14">Returns</strong>
+                      </td>
+                      <td>
+                        <span class="color-black fontsize-14">
+                          FREE Returns
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td scope="row">
+                        <strong class="fontsize-14">Season</strong>
+                      </td>
+                      <td>
+                        <span class="color-black fontsize-14">
+                          Spring,summer and fall
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td scope="row">
+                        <strong class="fontsize-14">Dimensions</strong>
+                      </td>
+                      <td>
+                        <span class="color-black fontsize-14">
+                          0.5 x 0.5 x 0.5 inches
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td scope="row">
+                        <strong class="fontsize-14">Item Weight</strong>
+                      </td>
+                      <td>
+                        <span class="color-black fontsize-14">
+                          5.6 ounces
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td scope="row">
+                        <strong class="fontsize-14">Material</strong>
+                      </td>
+                      <td>
+                        <span class="color-black fontsize-14">
+                          Varsity jacket made of polyester fabric, super durable
+                          and soft enough, breathable, cozy, comfortable
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td scope="row">
+                        <strong class="fontsize-14">Multi-occasion</strong>
+                      </td>
+                      <td>
+                        <span class="color-black fontsize-14">
+                          Fashion unisex letterman jackets, perfect for men,
+                          women, teens or couples
+                        </span>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade row d-flex mt-5"
+              id="ex1-tabs-3"
+              role="tabpanel"
+              aria-labelledby="ex1-tab-3"
+            >
+              <div class="flex row">
+                <div class="w-13 color-black">
+                  <div class="mr-3">
+                    <h2 class="display-4 font-weight-600 ms-2">0.00</h2>
+                    <p class="color-gray fontsize-15">Based on 0 reviews</p>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="rating-bar-row d-flex">
+                    <span class="star-count me-1">5</span>
+                    <span class="star-count me-2">★</span>
+                    <div class="progress-bar-container w-100 mt-2r">
+                      <div class="progress-bar"></div>
+                    </div>
+                  </div>
+                  <div class="rating-bar-row d-flex">
+                    <span class="star-count me-1">4</span>
+                    <span class="star-count me-2">★</span>
+                    <div class="progress-bar-container w-100 mt-2r">
+                      <div class="progress-bar"></div>
+                    </div>
+                  </div>
+                  <div class="rating-bar-row d-flex">
+                    <span class="star-count me-1">3</span>
+                    <span class="star-count me-2">★</span>
+                    <div class="progress-bar-container w-100 mt-2r">
+                      <div class="progress-bar"></div>
+                    </div>
+                  </div>
+                  <div class="rating-bar-row d-flex">
+                    <span class="star-count me-1">2</span>
+                    <span class="star-count me-2">★</span>
+                    <div class="progress-bar-container w-100 mt-2r">
+                      <div class="progress-bar"></div>
+                    </div>
+                  </div>
+                  <div class="rating-bar-row d-flex">
+                    <span class="star-count ps-1 me-1">1</span>
+                    <span class="star-count me-2">★</span>
+                    <div class="progress-bar-container w-100 mt-2r">
+                      <div class="progress-bar"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="fontsize-14 color-black mt-5">
+                <p>There are no reviews yet.</p>
+              </div>
+              <div class="w-100 mt-5 p-5 color-black bg-gray">
+                <div class="w-90">
+                  <h3 class="mb-2">
+                    Be the first to review “Barbie Baseball Hat Cap Berkshire
+                    Fashions New”
+                  </h3>
+                  <p class="fontsize-15 mt-4">
+                    Your email address will not be published. Required fields
+                    are marked <span class="color-red ms-1">*</span>
+                  </p>
+                  <div class="d-flex mt-4 fontsize-15">
+                    <p>Your rating <span class="color-red ms-1">*</span></p>
+                    <p class="ms-2">
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </p>
+                  </div>
+                  <div class="d-flex fontsize-15 mt-4">
+                    <p class="me-2">
+                      Choose pictures (maxsize: 50kB, max files: 2)
+                    </p>
+                    <input
+                      class="fontsize-13"
+                      type="file"
+                      id="myfile"
+                      name="myfile"
+                    />
+                  </div>
+                  <form>
+                    <div class="row my-4">
+                      <div class="col-md-6">
+                        <label for="exampleFormControlInput1" class="form-label"
+                          >Name <span class="color-red ms-1">*</span></label
+                        >
+                        <input
+                          type="text"
+                          class="form-control fontsize-14 np-m"
+                        />
+                      </div>
+                      <div class="col-md-6">
+                        <label for="exampleFormControlInput1" class="form-label"
+                          >Email <span class="color-red ms-1">*</span></label
+                        >
+                        <input
+                          type="email"
+                          class="form-control fontsize-14 np-m"
+                        />
+                      </div>
+                      <div class="row mt-4 mb-3">
+                        <label for="exampleFormControlInput1" class="form-label"
+                          >Message <span class="color-red ms-1">*</span></label
+                        >
+                        <div class="col-md-12">
+                          <textarea
+                            cols="30"
+                            rows="6"
+                            class="form-control fontsize-14 np-m"
+                          ></textarea>
+                        </div>
+                      </div>
+                      <div class="col-md-2"> 
+                      <button class="w-100">Submit</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        <div class="pt-4">
+          <h4 class="color-black font-weight-600">Related Products</h4>
+        </div>
+        <div class="autoplay slick w-100 mt-4">
+          <div class="item">
+            <span class="discount-badge">-6%</span>
+            <img class="w-100" src="images/fashion-1.jpg.jpeg" />
+            <div class="ms-3 w-80">
+              <p class="color-black fontsize-15">
+                LV Women Leather Accent Denim Mini Skirt
+              </p>
+              <h5>$85</h5>
+            </div>
+          </div>
+          <div class="item">
+            <img class="w-100" src="images/fashion-5.jpg.jpeg" />
+            <div class="ms-3 w-80">
+              <p class="color-black fontsize-15">
+                LV Women Leather Accent Denim Mini Skirt
+              </p>
+              <h5>$85</h5>
+            </div>
+          </div>
+          <div class="item">
+            <img class="w-100" src="images/fashion-3.jpg.jpeg" />
+            <div class="ms-3 w-80">
+              <p class="color-black fontsize-15">
+                LV Women Leather Accent Denim Mini Skirt
+              </p>
+              <h5>$85</h5>
+            </div>
+          </div>
+          <div class="item">
+            <img class="w-100" src="images/fashion-16.jpg.jpeg" />
+            <div class="ms-3 w-80">
+              <p class="color-black fontsize-15">
+                LV Women Leather Accent Denim Mini Skirt
+              </p>
+              <h5>$85</h5>
+            </div>
+          </div>
+          <div class="item">
+            <img class="w-100" src="images/fashion-26.jpg.jpeg" />
+            <div class="ms-3 w-80">
+              <p class="color-black fontsize-15">
+                LV Women Leather Accent Denim Mini Skirt
+              </p>
+              <h5>$85</h5>
+            </div>
+          </div>
+          <div class="item">
+            <img class="w-100" src="images/fashion-6.jpg.jpeg" />
+            <div class="ms-3 w-80">
+              <p class="color-black fontsize-15">
+                Smart Audio Glasses with Alexa in Classic Black
+              </p>
+              <h5>$85</h5>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
+
     <footer class="">
       <div class="w-90 mx-auto">
         <div class="row pt-6">
@@ -485,19 +898,19 @@
           <div class="w-15">
             <h5 class="font-weight-600 fontsize-15 mb-22">SHOPPING</h5>
             <ul class="list-unstyled fontsize-0-95r">
-              <li class="mb-11">
+              <li class="lheight-2">
                 <a class="color-white adecor hover" href="#">Wishlist</a>
               </li>
-              <li class="mb-11">
+              <li class="lheight-2">
                 <a class="color-white adecor hover" href="#">Shop by Brand</a>
               </li>
-              <li class="mb-11">
+              <li class="lheight-2">
                 <a class="color-white adecor hover" href="#">Offers</a>
               </li>
-              <li class="mb-11">
+              <li class="lheight-2">
                 <a class="color-white adecor hover" href="#">Track Order</a>
               </li>
-              <li class="mb-11">
+              <li class="lheight-2">
                 <a class="color-white adecor hover" href="#">Size Guide</a>
               </li>
             </ul>
@@ -505,21 +918,21 @@
           <div class="w-15">
             <h5 class="font-weight-600 fontsize-15 mb-22">INFOMATION</h5>
             <ul class="list-unstyled fontsize-0-95r">
-              <li class="mb-11">
+              <li class="lheight-2">
                 <a class="color-white adecor hover" href="#">Track Order</a>
               </li>
-              <li class="mb-11">
+              <li class="lheight-2">
                 <a class="color-white adecor hover" href="#"
                   >Shipping & Returns</a
                 >
               </li>
-              <li class="mb-11">
+              <li class="lheight-2">
                 <a class="color-white adecor hover" href="#">About Us</a>
               </li>
-              <li class="mb-11">
+              <li class="lheight-2">
                 <a class="color-white adecor hover" href="#">Help</a>
               </li>
-              <li class="mb-11">
+              <li class="lheight-2">
                 <a class="color-white adecor hover" href="#">Gift Cards</a>
               </li>
             </ul>
@@ -527,19 +940,19 @@
           <div class="w-15 ms-3">
             <h5 class="font-weight-600 fontsize-15 mb-22">ACCOUNT</h5>
             <ul class="list-unstyled fontsize-0-95r">
-              <li class="mb-11">
+              <li class="lheight-2">
                 <a class="color-white adecor hover" href="#">Cart</a>
               </li>
-              <li class="mb-11">
+              <li class="lheight-2">
                 <a class="color-white adecor hover" href="#">My account</a>
               </li>
-              <li class="mb-11">
+              <li class="lheight-2">
                 <a class="color-white adecor hover" href="#">My orders</a>
               </li>
-              <li class="mb-11">
+              <li class="lheight-2">
                 <a class="color-white adecor hover" href="#">Wishlist</a>
               </li>
-              <li class="mb-11">
+              <li class="lheight-2">
                 <a class="color-white adecor hover" href="#"
                   >Affiliate Programp</a
                 >
@@ -587,7 +1000,7 @@
           </div>
         </div>
         <div
-          class="feedback w-100 mx-auto bd-gray row align-items-center mb-22"
+          class="feedback w-100 mx-auto bd-gray row align-items-center mt-4 mb-22"
         >
           <div class="container w-90 row d-flex mx-auto">
             <div class="details d-flex col pt-2">
@@ -663,7 +1076,55 @@
     </footer>
 
     <script src="fonts/fontawesome/js/all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <!-- <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+      integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/main.js"></script>
+    <script>
+      $('.autoplay').slick({
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    prevArrow: '<button type="button" class="slick-prev">&#10094;</button>', 
+    nextArrow: '<button type="button" class="slick-next">&#10095;</button>', 
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: false
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+});
+
+    </script>
   </body>
 </html>

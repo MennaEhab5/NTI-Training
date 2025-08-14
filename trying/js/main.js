@@ -1,3 +1,13 @@
+let nav = document.querySelector("#nav")
+window.addEventListener("scroll", () => {
+    if(this.window.scrollY > 500){
+        nav.classList.add("fixed-top")
+    }else{
+        nav.classList.remove("fixed-top")
+    }
+})
+
+
 const smallThumbs = document.querySelectorAll(".small-thumb");
 const bigImage = document.getElementById("bigImage");
 
@@ -23,8 +33,31 @@ smallThumbs.forEach((img) => {
 //       innerSearch.classList.remove("d-none");
 //   })
 
-const search = document.querySelector("#search");
-const h = document.querySelector("#h");
-search.addEventListener("click", (e) => {
-  h.classList.remove("d-none");
-});
+// const search = document.querySelector("#search");
+// const h = document.querySelector("#h");
+// search.addEventListener("click", (e) => {
+//   h.classList.remove("d-none");
+// });
+
+// const tabLinks = document.querySelectorAll(".nav-link");
+// const tabPanes = document.querySelectorAll(".tab-pane");
+
+// tabLinks.forEach((link) => {
+//   link.addEventListener("click", (event) => {
+//     event.preventDefault();
+
+//     tabLinks.forEach((l) => l.classList.remove("active"));
+//     tabPanes.forEach((p) => p.classList.remove("show", "active"));
+
+//     link.classList.add("active");
+
+//     const targetId = link.getAttribute("href");
+//     const targetPane = document.querySelector(targetId);
+
+//     targetPane.classList.add("show", "active");
+//   });
+// });
+
+
+
+
