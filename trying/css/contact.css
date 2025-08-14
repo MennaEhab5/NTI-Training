@@ -821,6 +821,7 @@ footer .feedback {
   border-radius: 8px;
   position: relative;
   overflow: hidden;
+  background-color: white;
   transform: scale(1.02);
 }
 
