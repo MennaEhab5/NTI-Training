@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Merto</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" src="fonts/fontawesome/css/all.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/contact.css" />
+  </head>
+  <body>
+    <nav class="navbar-custom py-4" id="nav">
+      <div class="w-90 mx-auto">
+        <div class="row w-100 align-items-center">
+          <div class="col-md-2">
+            <img
+              class="logo w-65"
+              src="images/logo_1.png"
+              alt="Logo"
+              class="logo"
+            />
+          </div>
+          <div class="d-flex col-md-6 justify-content-around">
+            <div class="d-flex align-items-center hover justify-content-center">
+              <div class="phone-icone me-2">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-info fontsize-14">
+                <div>Contact us 24/7</div>
+                <div class="phone font-weight-500">(+92) 3942 7879</div>
+              </div>
+            </div>
+
+            <div class="">
+              <div class="search-section d-flex position-relative ms-0">
+                <div class="position-absolute d-none w-30" id="h" style="height: 200;"></div>
+                <div class="input-group" id="search">
+                  <form class="search-con d-flex w-100">
+                    <div class="input-text d-flex">
+                      <div class="selector">
+                        <select
+                          name="term"
+                          class="select-category w-100 fontsize-13 font-weight-500 ps-3"
+                        >
+                          <option value="">All Categories</option>
+                          <option value="bb-creams">BB Creams</option>
+                          <option value="body-bath">Body &amp; Bath</option>
+                          <option value="brushes-tools">
+                            Brushes &amp; Tools
+                          </option>
+                          <option value="hair-care">Hair Care</option>
+                          <option value="lipstick">Lipstick</option>
+                          <option value="makeup">Makeup</option>
+                          <option value="makeup-palettes">
+                            Makeup Palettes
+                          </option>
+                          <option value="mascara">Mascara</option>
+                          <option value="mask">Mask</option>
+                          <option value="nail-care">Nail Care</option>
+                          <option value="skincare">Skincare</option>
+                          <option value="toner">Toner</option>
+                          <option value="electronic">Electronic</option>
+                          <option value="product-cat-apple">Apple</option>
+                          <option value="camera">Camera</option>
+                          <option value="controller">&nbsp;Controller</option>
+                          <option value="headphones">&nbsp;Headphones</option>
+                          <option value="smartwatch">&nbsp;Smartwatch</option>
+                          <option value="fashion">Fashion</option>
+                          <option value="women">Women</option>
+                          <option value="women-accessories">Accessories</option>
+                          <option value="dress">Dress</option>
+                          <option value="shoes">Shoes</option>
+                          <option value="skirts">
+                            &nbsp;&nbsp;&nbsp;Skirts
+                          </option>
+                          <option value="tops">&nbsp;&nbsp;&nbsp;Tops</option>
+                          <option value="game-accessories">
+                            Game Accessories
+                          </option>
+                        </select>
+                      </div>
+                      <input
+                        type="text"
+                        class="search-input w-60 fontsize-14 font-weight-400 ms-2 ps-3 pe-4"
+                        placeholder="Search for products..."
+                      />
+                    </div>
+                    <button class="btn search-btn" type="button">
+                      <i class="fas fa-search"></i>
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="top-right-controls justify-content-end d-flex">
+              <a
+                href="#"
+                class="language-selector d-flex align-items-center color-black fontsize-14 adecor hover"
+              >
+                <div class="flag-icon">
+                  <img src="images/english.png" alt="English" />
+                </div>
+                English <i class="fas fa-chevron-down"></i>
+              </a>
+
+              <a
+                href="#"
+                class="currency-selector d-flex align-items-center color-black fontsize-14 adecor hover"
+              >
+                USD <i class="fas fa-chevron-down"></i>
+              </a>
+
+              <a
+                href="#"
+                class="icon-with-badge color-black adecor font-weight-500 hover"
+              >
+                <i class="fas fa-user fontsize-16"></i>
+                <span class="ms-1 fontsize-15">Account</span>
+              </a>
+
+              <a
+                href="#"
+                class="position-relative color-black adecor hover fontsize-16 font-weight-500"
+              >
+                <i class="far fa-heart"></i>
+                <span
+                  class="badge-count color-white d-flex align-items-center justify-content-center"
+                  >0</span
+                >
+              </a>
+
+              <a
+                href="#"
+                background-color:
+                white;
+                class="position-relative color-black adecor fontsize-16 font-weight-500 hover"
+              >
+                <i class="fas fa-shopping-cart"></i>
+                <span
+                  class="badge-count color-white d-flex align-items-center  justify-content-center"
+                  >0</span
+                >
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <nav class="bottom-nav">
+      <div class="w-90 mx-auto">
+        <div class="row w-100 align-items-center">
+          <div class="col-md-2 border-end">
+            <button
+              class="categories-btn d-flex color-black fontsize-14 font-weight-500 align-items-center hover"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#myCanvas"
+            >
+              <i class="fas fa-bars"></i>
+              SHOP BY CATEGORIES
+            </button>
+          </div>
+
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="myCanvas">
+            <div class="offcanvas-header bg-dark">
+              <h5 class="offcanvas-title w-100">
+                <button class="categories-btn text-white">
+                  <i class="fas fa-bars"></i>
+                  SHOP BY CATEGORIES
+                </button>
+              </h5>
+              <div class="d-fex justify-content-center">
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                ></button>
+              </div>
+            </div>
+            <div class="offcanvas-body">
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+          </div>
+
+          <div class="col-md-8">
+            <ul class="nav-links d-flex align-items-center ps-3">
+              <li>
+                <a href="#" class="active position-relative color-black fontsize-14 adecor hover"
+                  >Homepages
+                  <i class="fas fa-chevron-down"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="active position-relative color-black fontsize-14 adecor hover"
+                  >Categories
+                  <i class="fas fa-chevron-down"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="active position-relative color-black fontsize-14 adecor hover"
+                  >Products
+                  <i class="fas fa-chevron-down"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="active position-relative color-black fontsize-14 adecor hover"
+                  >Pages
+                  <i class="fas fa-chevron-down"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="active position-relative color-black fontsize-14 adecor hover"
+                  >About us</a
+                >
+              </li>
+              <li>
+                <a href="#" class="active position-relative color-black fontsize-14 adecor hover"
+                  >Blog</a
+                >
+              </li>
+              <li>
+                <a href="#" class="active position-relative color-black fontsize-14 adecor hover">
+                  <i class="fas fa-percentage"></i>
+                  Best Discount
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-2">
+            <div class="recently-viewed justify-content-end hover">
+              Recently viewed <i class="fas fa-chevron-down"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="main">
+      <div class="container">
+        <div class="row w-100">
+          <div class="col-md-8 mx-auto">
+            <div class="contact-us pb-4">
+              <div class="contact-title text-center">
+                <h1 class="display-2 fw-bold mb-4">Contact Us</h1>
+                <p class="base-p mb-1 fontsize-14">
+                  34 Main Street, Los Angeles 9021
+                </p>
+                <p class="base-p fontsize-14">United States</p>
+              </div>
+              <div class="contact-details">
+                <div class="services row">
+                  <div class="col">
+                    <a class="soc" href="#">
+                      <i class="fa-solid fa-phone-volume"></i>
+                    </a>
+                    <h4 class="fontsize-14 font-weight-600 mt-3">
+                      Customer service
+                    </h4>
+                    <a class="fontsize-14 trans hover" href="#"
+                      >+92 3942 7879</a
+                    >
+                    <p class="fontsize-12 mt-2">Call us from 8am to 8pm</p>
+                  </div>
+                  <div class="col">
+                    <a class="soc" href="#">
+                      <i class="fa-regular fa-message"></i>
+                    </a>
+                    <h4 class="fontsize-14 font-weight-600 mt-3">
+                      Chat with us
+                    </h4>
+                    <a class="fontsize-14 trans hover" href="#">Live Chat</a>
+                    <p class="fontsize-12 mt-2">Daily 8am to 11pm</p>
+                  </div>
+                  <div class="col">
+                    <a class="soc" href="#">
+                      <i class="fa-regular fa-envelope"></i>
+                    </a>
+                    <h4 class="fontsize-14 font-weight-600 mt-3">
+                      Write to us
+                    </h4>
+                    <a class="fontsize-14 trans hover" href="#"
+                      >contact@example.com</a
+                    >
+                  </div>
+                  <div class="col">
+                    <a class="soc hover" href="#">
+                      <i class="fa-solid fa-user-plus"></i>
+                    </a>
+                    <h4 class="fontsize-14 font-weight-600 mt-3">Follow us</h4>
+                    <a class="social hover fontsize-18" href="#"
+                      ><i class="fa-brands fa-facebook"></i
+                    ></a>
+                    <a class="social hover fontsize-18" href="#"
+                      ><i class="fa-brands fa-tiktok"></i
+                    ></a>
+                    <a class="social hover fontsize-18" href="#"
+                      ><i class="fa-brands fa-youtube"></i
+                    ></a>
+                    <a class="social hover fontsize-18" href="#"
+                      ><i class="fa-brands fa-twitter"></i
+                    ></a>
+                    <a class="social hover fontsize-18" href="#"
+                      ><i class="fa-brands fa-instagram"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-70 mx-auto">
+            <div class="get-touch my-5">
+              <h3 class="text-center display-7 font-weight-600 mb-4">
+                Do you have any questions?
+              </h3>
+              <form action="">
+                <div class="row my-4">
+                  <div class="col-md-6">
+                    <input
+                      type="text"
+                      class="form-control bg-gray fontsize-14 np-m"
+                      placeholder="Name and Surname *"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <input
+                      type="email"
+                      class="form-control bg-gray fontsize-14 np-m"
+                      placeholder="Email *"
+                    />
+                  </div>
+                </div>
+                <div class="row my-4">
+                  <div class="col-md-12">
+                    <input
+                      type="text"
+                      class="form-control bg-gray fontsize-14 np-m"
+                      placeholder="Subject *"
+                    />
+                  </div>
+                </div>
+                <div class="row mt-4 mb-3">
+                  <div class="col-md-12">
+                    <textarea
+                      cols="30"
+                      rows="6"
+                      class="form-control bg-gray fontsize-14 np-m"
+                      placeholder="Message"
+                    ></textarea>
+                  </div>
+                </div>
+                <button class="col-12">GET IN TOUCH</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="my-5">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26445.024106000106!2d-118.249991!3d34.053412!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA!5e0!3m2!1sen!2sus!4v1754949851343!5m2!1sen!2sus"
+          width="100%"
+          height="550"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <div class="container my-5 pt-4">
+        <h3 class="text-center display-7 font-weight-600 mb-4">
+          Stores arrounf the world
+        </h3>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img class="br-5" src="images/about-2.jpg" />
+            </div>
+            <div class="my-3">
+              <h5 class="font-weight-600 my-4">Los Angeles</h5>
+              <p class="base-p mb-1 fontsize-16">
+                34 Main Street, Los Angeles 9021
+              </p>
+              <p class="base-p fontsize-16">United States</p>
+              <p>+02 1234 567 88</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img class="br-5" src="images/about-3.jpg" />
+            </div>
+            <div class="my-3">
+              <h5 class="font-weight-600 my-4">New Yourk</h5>
+              <p class="base-p mb-1 fontsize-16">
+                515 Broadway 10015 New York United States
+              </p>
+              <p class="base-p fontsize-16">United States</p>
+              <p>+49 1234 567 88</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img class="br-5" src="images/about-4.jpg" />
+            </div>
+            <div class="my-3">
+              <h5 class="font-weight-600 my-4">California</h5>
+              <p class="base-p mb-1 fontsize-16">
+                1000 California St 68114 Omaha United States
+              </p>
+              <p class="base-p fontsize-16">United States</p>
+              <p>+44 1234 567 88</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="">
+      <div class="w-90 mx-auto">
+        <div class="row pt-6">
+          <div class="w-25">
+            <div class="mb-22">
+              <img class="logo" src="images/logo.png" alt="Logo" class="logo" />
+            </div>
+            <div class="w-70">
+              <a href="#" class="d-flex icon adecor color-gray op-7">
+                <i class="fa-solid fa-location-dot fontsize-1-2r pt-1 me-2"></i>
+                <p class="ms-1 fontsize-15">
+                  29 SE 2nd Ave, Miami Florida 33131, United States
+                </p>
+              </a>
+            </div>
+            <div class="w-65">
+              <a href="#" class="d-flex icon adecor color-gray op-7">
+                <i class="fa-regular fa-envelope fontsize-1-2r me-2"></i>
+                <p class="ms-1 fontsize-15">info@example.com</p>
+              </a>
+            </div>
+            <div class="phone fontsize-1-4r font-weight-600 mt-1 hover">
+              (+92) 3942 7879
+            </div>
+          </div>
+          <div class="w-15">
+            <h5 class="font-weight-600 fontsize-15 mb-22">SHOPPING</h5>
+            <ul class="list-unstyled fontsize-0-95r">
+              <li class="lheight-2">
+                <a class="color-white adecor hover" href="#">Wishlist</a>
+              </li>
+              <li class="lheight-2">
+                <a class="color-white adecor hover" href="#">Shop by Brand</a>
+              </li>
+              <li class="lheight-2">
+                <a class="color-white adecor hover" href="#">Offers</a>
+              </li>
+              <li class="lheight-2">
+                <a class="color-white adecor hover" href="#">Track Order</a>
+              </li>
+              <li class="lheight-2">
+                <a class="color-white adecor hover" href="#">Size Guide</a>
+              </li>
+            </ul>
+          </div>
+          <div class="w-15">
+            <h5 class="font-weight-600 fontsize-15 mb-22">INFOMATION</h5>
+            <ul class="list-unstyled fontsize-0-95r">
+              <li class="lheight-2">
+                <a class="color-white adecor hover" href="#">Track Order</a>
+              </li>
+              <li class="lheight-2">
+                <a class="color-white adecor hover" href="#"
+                  >Shipping & Returns</a
+                >
+              </li>
+              <li class="lheight-2">
+                <a class="color-white adecor hover" href="#">About Us</a>
+              </li>
+              <li class="lheight-2">
+                <a class="color-white adecor hover" href="#">Help</a>
+              </li>
+              <li class="lheight-2">
+                <a class="color-white adecor hover" href="#">Gift Cards</a>
+              </li>
+            </ul>
+          </div>
+          <div class="w-15 ms-3">
+            <h5 class="font-weight-600 fontsize-15 mb-22">ACCOUNT</h5>
+            <ul class="list-unstyled fontsize-0-95r">
+              <li class="lheight-2">
+                <a class="color-white adecor hover" href="#">Cart</a>
+              </li>
+              <li class="lheight-2">
+                <a class="color-white adecor hover" href="#">My account</a>
+              </li>
+              <li class="lheight-2">
+                <a class="color-white adecor hover" href="#">My orders</a>
+              </li>
+              <li class="lheight-2">
+                <a class="color-white adecor hover" href="#">Wishlist</a>
+              </li>
+              <li class="lheight-2">
+                <a class="color-white adecor hover" href="#"
+                  >Affiliate Programp</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="w-28 ps-5">
+            <div class="fontsize-1-2r font-weight-600 mb-22">
+              Let's keep in touch
+            </div>
+            <div class="search w-100 d-flex bd-gray fontsize-14 mb-22">
+              <form class="d-flex w-100">
+                <div class="w-90">
+                  <input
+                    type="text"
+                    class="ms-2 bg-transparent border-0"
+                    placeholder="enter your email address"
+                  />
+                </div>
+                <button
+                  class="btn search-btn bg-transparent hover"
+                  type="button"
+                >
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </form>
+            </div>
+            <div class="col fontsize-1-4r">
+              <a class="social color-white hover me-2" href="#"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a class="social color-white hover me-2" href="#"
+                ><i class="fa-brands fa-tiktok"></i
+              ></a>
+              <a class="social color-white hover me-2" href="#"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+              <a class="social color-white hover me-2" href="#"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a class="social color-white hover" href="#"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="feedback w-100 mx-auto bd-gray row align-items-center mt-4 mb-22"
+        >
+          <div class="container w-90 row d-flex mx-auto">
+            <div class="details d-flex col pt-2">
+              <div class="w-10 me-3">
+                <a class="color-white fontsize-1-6r" href="#">
+                  <i class="fa-solid fa-phone-volume"></i>
+                </a>
+              </div>
+              <div class="">
+                <div class="fontsize-0-95r font-weight-500 mb-1">
+                  Didn't find what you were looking for?
+                </div>
+                <div class="transpare">
+                  <a class="fontsize-14 color-white adecor" href="#"
+                    >Contact Us</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="details col pt-2 ps-4 d-flex">
+              <div class="w-10 me-3">
+                <a class="color-white fontsize-1-8r" href="#">
+                  <i class="fa-regular fa-face-smile"></i>
+                </a>
+              </div>
+              <div class="pt-1">
+                <div class="fontsize-0-95r font-weight-600 mb-1">
+                  How can we help you today?
+                </div>
+                <div class="transpare mb-1">
+                  <a class="fontsize-14 color-white adecor" href="#"
+                    >Help Center</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="details col pt-2 ps-4 d-flex">
+              <div class="w-10 me-3">
+                <a class="color-white fontsize-1-8r" href="#">
+                  <i class="fa-regular fa-life-ring"></i>
+                </a>
+              </div>
+              <div class="pt-1">
+                <div class="fontsize-0-95r font-weight-600 mb-1">
+                  We'd love to hear what you think!
+                </div>
+                <div class="transpare pb-1">
+                  <a class="fontsize-14 color-white adecor" href="#"
+                    >Give Feedback</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright w-100">
+          <div class="row w-100 d-flex align-items-center mp-0">
+            <div class="col-md-9">
+              <p class="fontsize-14 color-gray op-7">
+                Copyright © 2023 All Rights Reserved
+              </p>
+            </div>
+            <div class="col-md-3">
+              <img
+                src="images/payment-icons-1.png"
+                alt="payment-icons"
+                class="w-100"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="fonts/fontawesome/js/all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
